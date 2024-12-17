@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:text="Hi, User"
+        android:textSize="18sp"
+        android:textColor="@color/text_primary" />
+
+    <!-- Bouton filtre -->
+    <ImageView
+        android:id="@+id/filter_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/filter_tasks"
+        android:src="@drawable/filter" />
+
+    <!-- Icône des tâches -->
+    <ImageView
+        android:id="@+id/task_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/sans"
+        android:contentDescription="@string/task_icon" />
+
+    <!-- Titre principal -->
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_icon"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Schedule your tasks"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <!-- Sous-titre -->
+    <TextView
+        android:id="@+id/task_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_title"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Manage your task schedule easily\nand efficiently"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/text_secondary" />
+
+    <!-- Bouton flottant -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/add_task"
+        android:src="@drawable/add"
+        app:backgroundTint="@color/fab_background"
+        app:elevation="8dp" />
+
+</RelativeLayout>

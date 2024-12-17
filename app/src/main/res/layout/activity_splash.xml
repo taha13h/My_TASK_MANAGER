@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B41E2">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/logo_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/sans"/>
+    <TextView
+        android:id="@+id/texttiltel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everything Tasks"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/logo_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule your week with ease"
+        android:id="@+id/subtitle"
+        android:textColor="@color/white"
+        android:layout_below="@+id/texttiltel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"/>
+
+
+
+</RelativeLayout>

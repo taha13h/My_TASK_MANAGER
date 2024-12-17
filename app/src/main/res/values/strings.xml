@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My_TASK_MANAGER</string>
+    <string name="filter_tasks">Filtrer les tâches</string>
+    <string name="task_options">Options de tâche</string>
+    <string name="task_icon">Task icon</string>
+    <string name="add_task">Add a new task</string>
+    <string name="task_checkbox">Select task</string>
+    <string name="task_checkbox_description">Mark task as completed</string>
+    <string name="task_options_description">Options for this task</string>
+
+
+
+
+
+</resources>
